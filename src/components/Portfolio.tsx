@@ -24,19 +24,19 @@ const Portfolio = () => {
       title: "Riverside Residential Complex",
       category: "مسکونی",
       description: "Multi-building residential project with integrated fire alarm and sprinkler system design.",
-      image: "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?w=800&auto=format&fit=crop",
+      image: "/building.jpg",
     },
     {
       title: "City General Hospital",
       category: "بیمارستان",
       description: "Critical fire safety planning for a 500-bed hospital with specialized ICU and surgical requirements.",
-      image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&auto=format&fit=crop",
+      image: "/hospital.jpg",
     },
     {
       title: "University Campus Center",
       category: "آموزشی",
       description: "Campus-wide fire safety master plan including dormitories, lecture halls, and laboratories.",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop",
+      image: "/school.jpg",
     },
   ];
 
