@@ -36,7 +36,8 @@ const Hero = () => {
 
                     {/* Headline */}
                     <h1 dir="rtl" className="font-serif text-4xl md:text-5xl lg:text-7xl font-bold text-accent-foreground leading-tight mb-6 animate-fade-up animation-delay-200">
-                        حفاظت از جان و سرمایه با
+                        {/* حفاظت از جان و سرمایه با */}
+                        <span className="block mt-2">حفاظت از جان و سرمایه با</span>
                         <span className="text-gradient block mt-2">راهکار های تخصصی ایمنی و آتش نشانی</span>
                     </h1>
 

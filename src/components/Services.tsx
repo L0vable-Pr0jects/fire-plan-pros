@@ -39,7 +39,7 @@ const Services = () => {
             <div className="container mx-auto px-4 lg:px-8">
                 {/* Section Header */}
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <span className="text-accent font-medium text-sm uppercase tracking-wider mb-4 block">
+                    <span className="text-3xl text-accent font-medium uppercase tracking-wider mb-4 block">
                         فعالیت های ما
                     </span>
                     {/* <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">

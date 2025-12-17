@@ -51,7 +51,7 @@ const Contact = () => {
             <div className="container mx-auto px-4 lg:px-8">
                 {/* Section Header */}
                 <div className="text-center max-w-3xl mx-auto mb-16">
-                    <span className="text-accent font-medium text-sm uppercase tracking-wider mb-4 block">
+                    <span className="text-accent font-medium text-3xl uppercase tracking-wider mb-4 block">
                         ارتباط باما
                     </span>
                     {/* <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
@@ -68,7 +68,7 @@ const Contact = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
                     {/* Contact Form */}
                     <div dir="rtl" className="bg-card rounded-2xl p-8 lg:p-10 shadow-card">
-                        <h3 className="font-serif text-2xl font-semibold text-foreground mb-6">
+                        <h3 className="font-serif text-xl font-semibold text-foreground mb-6">
                             با ما در ارتباط باشید
                         </h3>
                         <form onSubmit={handleSubmit} className="space-y-6">
