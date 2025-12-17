@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 lg:px-8">
-        <nav className="flex items-center justify-between h-16 lg:h-20">
+        <nav dir="rtl" className="flex items-center gap-[5%] h-16 lg:h-20">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2 group">
             <div className="w-10 h-10 rounded-lg gradient-accent flex items-center justify-center shadow-glow group-hover:scale-105 transition-transform duration-300">
@@ -28,7 +28,7 @@ const Header = () => {
           </a>
 
           {/* Desktop Navigation */}
-          <div dir="rtl" className="hidden lg:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => (
               <a
                 key={link.href}
