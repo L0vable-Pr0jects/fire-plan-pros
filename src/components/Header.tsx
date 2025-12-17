@@ -6,10 +6,10 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: "#home", label: "Home" },
-    { href: "#services", label: "Services" },
-    { href: "#portfolio", label: "Portfolio" },
-    { href: "#contact", label: "Contact" },
+    { href: "#home", label: "صفحه اصلی" },
+    { href: "#services", label: "خدمات" },
+    { href: "#portfolio", label: "نمونه کارها" },
+    { href: "#contact", label: "ارتباط باما" },
   ];
 
   return (
@@ -21,25 +21,26 @@ const Header = () => {
             <div className="w-10 h-10 rounded-lg gradient-accent flex items-center justify-center shadow-glow group-hover:scale-105 transition-transform duration-300">
               <Flame className="w-5 h-5 text-accent-foreground" />
             </div>
-            <span className="font-serif text-xl font-semibold text-foreground">
-              FirePlan<span className="text-accent">Pro</span>
+            <span className="font-serif text-2xl font-semibold text-foreground">
+              IKGA
+              {/* <span className="text-accent">Pro</span> */}
             </span>
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-8">
+          <div dir="rtl" className="hidden lg:flex items-center gap-8">
             {navLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
-                className="text-muted-foreground hover:text-foreground transition-colors duration-300 font-medium"
+                className="text-muted-foreground text-xl hover:text-foreground transition-colors duration-300 font-medium"
               >
                 {link.label}
               </a>
             ))}
-            <Button variant="accent" size="lg">
+            {/* <Button variant="accent" size="lg">
               Get a Quote
-            </Button>
+            </Button> */}
           </div>
 
           {/* Mobile Menu Button */}
